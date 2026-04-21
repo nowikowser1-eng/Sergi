@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Sergi
+  
+  English
+*/
+
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.create" = "Create";
+"common.close" = "Close";
+"common.done" = "Done";
+"common.delete" = "Delete";
+"common.ok" = "OK";
+"common.yes" = "Yes";
+"common.no" = "No";
+"common.error" = "Error";
+"common.great" = "Great!";
+"common.write" = "Write";
+
+// MARK: - Tabs
+"tab.home" = "Home";
+"tab.explore" = "Explore";
+"tab.progress" = "Progress";
+"tab.profile" = "Profile";
+
+// MARK: - Home
+"home.greeting.morning" = "Good morning";
+"home.greeting.afternoon" = "Good afternoon";
+"home.greeting.evening" = "Good evening";
+"home.greeting.night" = "Good night";
+"home.today" = "Today";
+"home.habits_count" = "%d of %d habits";
+"home.empty.title" = "Start with your first habit";
+"home.empty.subtitle" = "Tap + to create a habit or pick from the library";
+"home.empty.action" = "Add habit";
+"home.allDone.title" = "Great day!";
+"home.allDone.subtitle" = "All habits completed. Keep it up!";
+"home.allDone.message" = "All habits for today are done! 🌟";
+"home.completed" = "Completed";
+"home.steps" = "steps";
+"home.activeMinutes" = "active min";
+
+// MARK: - Habits
+"habit.new" = "New Habit";
+"habit.name.placeholder" = "Habit name";
+"habit.manual" = "Manual";
+"habit.fromLibrary" = "From Library";
+"habit.category" = "Category";
+"habit.trackingType" = "Tracking Type";
+"habit.targetCount" = "Target (count)";
+"habit.targetMinutes" = "Target (minutes)";
+"habit.frequency" = "Frequency";
+"habit.reminder" = "Reminder";
+"habit.reminder.enable" = "Enable reminder";
+"habit.why" = "Why is this important? (optional)";
+"habit.why.placeholder" = "Helps remember why you do this";
+"habit.time" = "Time";
+"habit.currentStreak" = "Current streak";
+"habit.bestStreak" = "Best streak";
+"habit.completion" = "Completion";
+"habit.history" = "History";
+"habit.whyImportant" = "Why it matters";
+
+// MARK: - Categories
+"category.health" = "Health";
+"category.fitness" = "Fitness";
+"category.learning" = "Learning";
+"category.productivity" = "Productivity";
+"category.relationships" = "Relationships";
+"category.finance" = "Finance";
+"category.mindfulness" = "Mindfulness";
+"category.creativity" = "Creativity";
+"category.nutrition" = "Nutrition";
+"category.sleep" = "Sleep";
+
+// MARK: - Habit Types
+"type.boolean" = "Yes / No";
+"type.counter" = "Counter";
+"type.timer" = "Timer";
+"type.checklist" = "Checklist";
+
+// MARK: - Frequencies
+"frequency.daily" = "Every day";
+"frequency.weekdays" = "Weekdays";
+"frequency.weekends" = "Weekends";
+"frequency.threePerWeek" = "3 times a week";
+"frequency.fivePerWeek" = "5 times a week";
+"frequency.custom" = "Custom";
+"frequency.daily.short" = "Daily";
+"frequency.weekdays.short" = "Mon-Fri";
+"frequency.weekends.short" = "Sat-Sun";
+"frequency.threePerWeek.short" = "3×/wk";
+"frequency.fivePerWeek.short" = "5×/wk";
+"frequency.custom.short" = "Custom";
+
+// MARK: - Mood
+"mood.terrible" = "Terrible";
+"mood.bad" = "Bad";
+"mood.neutral" = "OK";
+"mood.good" = "Good";
+"mood.excellent" = "Excellent";
+
+// MARK: - Journal
+"journal.title" = "Journal";
+"journal.empty.title" = "Journal is empty";
+"journal.empty.subtitle" = "Write down your thoughts and track your mood every day";
+"journal.new" = "New Entry";
+"journal.howFeeling" = "How are you feeling?";
+"journal.energyLevel" = "Energy Level";
+"journal.energy" = "Energy";
+"journal.sergiAsks" = "Sergi asks:";
+"journal.thoughts" = "Today's Thoughts";
+"journal.thoughts.placeholder" = "What stood out today?";
+"journal.gratitude" = "Gratitude";
+"journal.gratitude.subtitle" = "3 things you're grateful for today";
+"journal.detail.thoughts" = "Thoughts";
+
+// MARK: - Progress / Analytics
+"progress.title" = "Progress";
+"progress.period.week" = "Week";
+"progress.period.month" = "Month";
+"progress.period.year" = "Year";
+"progress.activeHabits" = "Active Habits";
+"progress.bestStreak" = "Best Streak";
+"progress.level" = "Level";
+"progress.totalXP" = "Total XP";
+"progress.completionForPeriod" = "Completion for Period";
+"progress.byHabits" = "By Habits";
+"progress.achievements" = "Achievements";
+"progress.noBadges.title" = "No badges yet";
+"progress.noBadges.subtitle" = "Complete habits to earn rewards!";
+"progress.mood" = "Mood";
+"progress.correlations" = "Correlations";
+"progress.correlations.noData" = "Not enough data for analysis. Keep tracking habits!";
+"progress.patterns" = "Patterns";
+"progress.patterns.noData" = "Patterns will appear as more data is collected";
+"progress.health" = "Apple Health";
+"progress.health.steps" = "steps";
+"progress.health.minutes" = "min";
+"progress.health.sleepHours" = "h sleep";
+
+// MARK: - Settings
+"settings.title" = "Profile";
+"settings.main" = "Main";
+"settings.goals" = "Goals";
+"settings.aiCoach" = "AI Coach";
+"settings.journal" = "Reflection Journal";
+"settings.notifications" = "Notifications";
+"settings.notifications.style" = "Style";
+"settings.notifications.quietDays" = "Quiet Days (AI powered)";
+"settings.appearance" = "Appearance";
+"settings.appearance.theme" = "Theme";
+"settings.data" = "Data";
+"settings.data.export" = "Export Data";
+"settings.data.restore" = "Restore Purchases";
+"settings.health" = "Health";
+"settings.health.toggle" = "Apple Health Integration";
+"settings.health.description" = "Steps, active minutes, and sleep will appear on the home screen and analytics";
+"settings.about" = "About";
+"settings.about.version" = "Version";
+
+// MARK: - Notification Styles
+"notification.minimal" = "Minimal";
+"notification.motivational" = "Motivational";
+"notification.contextual" = "Contextual";
+
+// MARK: - Appearance
+"appearance.light" = "Light";
+"appearance.dark" = "Dark";
+"appearance.system" = "System";
+
+// MARK: - Paywall
+"paywall.title" = "Sergi Premium";
+"paywall.subtitle" = "Unlock the full potential\nof your habits";
+"paywall.trial" = "3 days free";
+"paywall.cta" = "Start free trial";
+"paywall.restore" = "Restore purchases";
+"paywall.legal" = "Subscription renews automatically. Cancel in Apple ID settings.";
+"paywall.terms" = "Terms of Use • Privacy Policy";
+"paywall.bestValue" = "Best Value";
+"paywall.feature.aiCoach" = "AI Coach";
+"paywall.feature.aiCoach.desc" = "Personal coach with full features";
+"paywall.feature.unlimited" = "Unlimited Habits";
+"paywall.feature.unlimited.desc" = "Create as many habits as you want";
+"paywall.feature.analytics" = "Advanced Analytics";
+"paywall.feature.analytics.desc" = "Deep insights and correlations";
+"paywall.feature.themes" = "Custom Themes";
+"paywall.feature.themes.desc" = "Icons, colors, and styling";
+"paywall.feature.export" = "Data Export";
+"paywall.feature.export.desc" = "CSV, PDF — all your data";
+"paywall.feature.noAds" = "No Ads";
+"paywall.feature.noAds.desc" = "Clean interface without distractions";
+"paywall.productNotFound" = "Product not found. Try again later.";
+
+// MARK: - Subscription Plans
+"plan.monthly" = "1 Month";
+"plan.quarterly" = "3 Months";
+"plan.semiannual" = "6 Months";
+"plan.annual" = "12 Months";
+"plan.biennial" = "24 Months";
+"plan.lifetime" = "Lifetime";
+
+// MARK: - Badges
+"badge.streak7" = "7-Day Streak";
+"badge.streak21" = "21 Days — Habit!";
+"badge.streak66" = "66 Days — Automatic!";
+"badge.streak100" = "Century!";
+"badge.earlyBird" = "Early Bird";
+"badge.nightOwl" = "Night Owl";
+"badge.ironWill" = "Iron Will";
+"badge.firstHabit" = "First Step";
+"badge.fiveHabits" = "Five Habits";
+"badge.perfectWeek" = "Perfect Week";
+"badge.perfectMonth" = "Perfect Month";
+"badge.journalKeeper" = "Journal Keeper";
+"badge.aiExplorer" = "AI Explorer";
+"badge.socialButterfly" = "Team Player";
+"badge.levelUp" = "Level Up";
+
+"badge.streak7.desc" = "Complete a habit for 7 days in a row";
+"badge.streak21.desc" = "21 days — habit is forming!";
+"badge.streak66.desc" = "66 days — habit is automatic!";
+"badge.streak100.desc" = "100 days in a row — you're a legend!";
+"badge.earlyBird.desc" = "Complete a habit before 7 AM";
+"badge.nightOwl.desc" = "Complete a habit after 11 PM";
+"badge.ironWill.desc" = "Don't miss a single day in a month";
+"badge.firstHabit.desc" = "Create your first habit";
+"badge.fiveHabits.desc" = "Track 5 habits at once";
+"badge.perfectWeek.desc" = "Complete all habits for the week";
+"badge.perfectMonth.desc" = "Complete all habits for the month";
+"badge.journalKeeper.desc" = "Keep a journal for 7 days straight";
+"badge.aiExplorer.desc" = "Use AI coach 10 times";
+"badge.socialButterfly.desc" = "Invite a friend to the app";
+"badge.levelUp.desc" = "Reach a new level";
+
+// MARK: - Levels
+"level.novice" = "Novice";
+"level.student" = "Student";
+"level.practitioner" = "Practitioner";
+"level.master" = "Habit Master";
+"level.guru" = "Guru";
+"level.legend" = "Legend";
+"level.prefix" = "Level %d";
+"level.xpFormat" = "%d/%d XP";
+
+// MARK: - Goals
+"goals.title" = "Goals";
+"goals.empty.title" = "No goals";
+"goals.empty.subtitle" = "Create a goal to organize habits into a meaningful plan";
+"goals.empty.action" = "Create goal";
+"goals.new" = "New Goal";
+"goals.name" = "GOAL NAME";
+"goals.name.placeholder" = "E.g.: Run a half marathon";
+"goals.description" = "DESCRIPTION";
+"goals.description.placeholder" = "Why do you want this goal?";
+"goals.identity" = "WHO DO YOU WANT TO BECOME? (OPTIONAL)";
+"goals.identity.placeholder" = "I am a person who...";
+"goals.deadline" = "Deadline";
+"goals.deadline.date" = "Date";
+"goals.availableTime" = "AVAILABLE TIME PER DAY";
+"goals.availableTime.format" = "%d minutes";
+"goals.linkHabits" = "LINK HABITS";
+"goals.habits_count" = "%d habits";
+"goals.daysLeft" = "%d days left";
+"goals.deadlinePassed" = "Deadline passed";
+"goals.progress" = "Progress";
+"goals.habits" = "Habits";
+"goals.markComplete" = "Mark goal as completed";
+"goals.delete" = "Delete goal";
+"goals.habitsLinked" = "%d habits linked";
+"goals.aiSuggest" = "AI will suggest habits for this goal";
+
+// MARK: - Celebration
+"celebration.newLevel" = "⬆️ New Level!";
+"celebration.streakDays" = "🔥 %d days in a row!";
+"celebration.perfectDay" = "✨ Perfect Day!";
+
+// MARK: - Premium
+"premium.title" = "Sergi Premium ✨";
+"premium.subtitle" = "AI coach, unlimited habits, analytics";
+
+// MARK: - Onboarding
+"onboarding.welcome" = "Welcome to Sergi";
+"onboarding.next" = "Next";
+"onboarding.start" = "Start";
+
+// MARK: - Notifications
+"notification.habitTime" = "Time for a habit";
+"notification.howWasDay" = "How was your day?";
+"notification.journal.body" = "Take a minute to reflect — it helps form habits 📝";
+"notification.weeklyReview" = "Weekly Review 📊";
+"notification.weeklyReview.body" = "Check your weekly progress and adjust your plan!";
+"notification.action.complete" = "✅ Done";
+"notification.action.skip" = "⏭️ Skip";
+"notification.action.openJournal" = "📝 Open Journal";
+
+// MARK: - Store Errors
+"store.error.verification" = "Could not verify purchase";
+"store.error.purchase" = "Purchase failed";
+
+// MARK: - Streaks
+"streak.daysInRow" = "days in a row";
+"streak.best" = "Best: %d";

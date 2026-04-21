@@ -1,0 +1,45 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Run unit tests"
+  lane :test do
+    scan(
+      project: "Sergi.xcodeproj",
+      scheme: "Sergi",
+      device: "iPhone 15",
+      clean: true,
+      code_coverage: true
+    )
+  end
+
+  desc "Build for TestFlight"
+  lane :beta do
+    increment_build_number
+    build_app(
+      project: "Sergi.xcodeproj",
+      scheme: "Sergi",
+      export_method: "app-store",
+      clean: true
+    )
+    upload_to_testflight(
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  desc "Submit to App Store"
+  lane :release do
+    increment_build_number
+    build_app(
+      project: "Sergi.xcodeproj",
+      scheme: "Sergi",
+      export_method: "app-store",
+      clean: true
+    )
+    upload_to_app_store(
+      submit_for_review: true,
+      automatic_release: false,
+      force: true,
+      precheck_include_in_app_purchases: false
+    )
+  end
+end

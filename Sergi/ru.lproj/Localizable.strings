@@ -1,0 +1,305 @@
+/* 
+  Localizable.strings
+  Sergi
+  
+  Russian (default)
+*/
+
+// MARK: - Common
+"common.cancel" = "Отмена";
+"common.save" = "Сохранить";
+"common.create" = "Создать";
+"common.close" = "Закрыть";
+"common.done" = "Готово";
+"common.delete" = "Удалить";
+"common.ok" = "OK";
+"common.yes" = "Да";
+"common.no" = "Нет";
+"common.error" = "Ошибка";
+"common.great" = "Отлично!";
+"common.write" = "Написать";
+
+// MARK: - Tabs
+"tab.home" = "Главная";
+"tab.explore" = "Обзор";
+"tab.progress" = "Прогресс";
+"tab.profile" = "Профиль";
+
+// MARK: - Home
+"home.greeting.morning" = "Доброе утро";
+"home.greeting.afternoon" = "Добрый день";
+"home.greeting.evening" = "Добрый вечер";
+"home.greeting.night" = "Доброй ночи";
+"home.today" = "Сегодня";
+"home.habits_count" = "%d из %d привычек";
+"home.empty.title" = "Начни с первой привычки";
+"home.empty.subtitle" = "Нажми +, чтобы создать привычку или выбрать из библиотеки";
+"home.empty.action" = "Добавить привычку";
+"home.allDone.title" = "Отличный день!";
+"home.allDone.subtitle" = "Все привычки выполнены. Так держать!";
+"home.allDone.message" = "Все привычки на сегодня выполнены! 🌟";
+"home.completed" = "Выполнено";
+"home.steps" = "шагов";
+"home.activeMinutes" = "мин активности";
+
+// MARK: - Habits
+"habit.new" = "Новая привычка";
+"habit.name.placeholder" = "Название привычки";
+"habit.manual" = "Вручную";
+"habit.fromLibrary" = "Из библиотеки";
+"habit.category" = "Категория";
+"habit.trackingType" = "Тип отслеживания";
+"habit.targetCount" = "Цель (количество)";
+"habit.targetMinutes" = "Цель (минуты)";
+"habit.frequency" = "Частота";
+"habit.reminder" = "Напоминание";
+"habit.reminder.enable" = "Включить напоминание";
+"habit.why" = "Почему это важно? (необязательно)";
+"habit.why.placeholder" = "Помогает не забыть зачем ты это делаешь";
+"habit.time" = "Время";
+"habit.currentStreak" = "Текущая серия";
+"habit.bestStreak" = "Лучшая серия";
+"habit.completion" = "Выполнение";
+"habit.history" = "История";
+"habit.whyImportant" = "Почему это важно";
+
+// MARK: - Categories
+"category.health" = "Здоровье";
+"category.fitness" = "Фитнес";
+"category.learning" = "Обучение";
+"category.productivity" = "Продуктивность";
+"category.relationships" = "Отношения";
+"category.finance" = "Финансы";
+"category.mindfulness" = "Осознанность";
+"category.creativity" = "Творчество";
+"category.nutrition" = "Питание";
+"category.sleep" = "Сон";
+
+// MARK: - Habit Types
+"type.boolean" = "Да / Нет";
+"type.counter" = "Счётчик";
+"type.timer" = "Таймер";
+"type.checklist" = "Чек-лист";
+
+// MARK: - Frequencies
+"frequency.daily" = "Каждый день";
+"frequency.weekdays" = "По будням";
+"frequency.weekends" = "По выходным";
+"frequency.threePerWeek" = "3 раза в неделю";
+"frequency.fivePerWeek" = "5 раз в неделю";
+"frequency.custom" = "Свой график";
+"frequency.daily.short" = "Ежедневно";
+"frequency.weekdays.short" = "Пн-Пт";
+"frequency.weekends.short" = "Сб-Вс";
+"frequency.threePerWeek.short" = "3×/нед";
+"frequency.fivePerWeek.short" = "5×/нед";
+"frequency.custom.short" = "Своё";
+
+// MARK: - Mood
+"mood.terrible" = "Ужасно";
+"mood.bad" = "Плохо";
+"mood.neutral" = "Нормально";
+"mood.good" = "Хорошо";
+"mood.excellent" = "Отлично";
+
+// MARK: - Journal
+"journal.title" = "Журнал";
+"journal.empty.title" = "Журнал пуст";
+"journal.empty.subtitle" = "Записывай свои мысли и отслеживай настроение каждый день";
+"journal.new" = "Запись в журнал";
+"journal.howFeeling" = "Как ты себя чувствуешь?";
+"journal.energyLevel" = "Уровень энергии";
+"journal.energy" = "Энергия";
+"journal.sergiAsks" = "Sergi спрашивает:";
+"journal.thoughts" = "Мысли дня";
+"journal.thoughts.placeholder" = "Что запомнилось сегодня?";
+"journal.gratitude" = "Благодарность";
+"journal.gratitude.subtitle" = "3 вещи, за которые ты благодарен сегодня";
+"journal.detail.thoughts" = "Мысли";
+
+// MARK: - Progress / Analytics
+"progress.title" = "Прогресс";
+"progress.period.week" = "Неделя";
+"progress.period.month" = "Месяц";
+"progress.period.year" = "Год";
+"progress.activeHabits" = "Активные привычки";
+"progress.bestStreak" = "Лучший streak";
+"progress.level" = "Уровень";
+"progress.totalXP" = "Общий XP";
+"progress.completionForPeriod" = "Выполнение за период";
+"progress.byHabits" = "По привычкам";
+"progress.achievements" = "Достижения";
+"progress.noBadges.title" = "Пока нет значков";
+"progress.noBadges.subtitle" = "Выполняй привычки, чтобы получать награды!";
+"progress.mood" = "Настроение";
+"progress.correlations" = "Корреляции";
+"progress.correlations.noData" = "Недостаточно данных для анализа. Продолжай отслеживать привычки!";
+"progress.patterns" = "Паттерны";
+"progress.patterns.noData" = "Паттерны появятся, когда соберётся больше данных";
+"progress.health" = "Apple Health";
+"progress.health.steps" = "шагов";
+"progress.health.minutes" = "мин";
+"progress.health.sleepHours" = "ч сна";
+
+// MARK: - Settings
+"settings.title" = "Профиль";
+"settings.main" = "Основное";
+"settings.goals" = "Цели";
+"settings.aiCoach" = "AI-Коуч";
+"settings.journal" = "Журнал рефлексии";
+"settings.notifications" = "Уведомления";
+"settings.notifications.style" = "Стиль";
+"settings.notifications.quietDays" = "Тихие дни (AI определяет)";
+"settings.appearance" = "Оформление";
+"settings.appearance.theme" = "Тема";
+"settings.data" = "Данные";
+"settings.data.export" = "Экспорт данных";
+"settings.data.restore" = "Восстановить покупки";
+"settings.health" = "Здоровье";
+"settings.health.toggle" = "Интеграция с Apple Health";
+"settings.health.description" = "Шаги, минуты активности и сон будут отображаться на главном экране и в аналитике";
+"settings.about" = "О приложении";
+"settings.about.version" = "Версия";
+
+// MARK: - Notification Styles
+"notification.minimal" = "Минимальные";
+"notification.motivational" = "Мотивирующие";
+"notification.contextual" = "Контекстные";
+
+// MARK: - Appearance
+"appearance.light" = "Светлая";
+"appearance.dark" = "Тёмная";
+"appearance.system" = "Системная";
+
+// MARK: - Paywall
+"paywall.title" = "Sergi Premium";
+"paywall.subtitle" = "Разблокируй полный потенциал\nсвоих привычек";
+"paywall.trial" = "3 дня бесплатно";
+"paywall.cta" = "Начать бесплатный период";
+"paywall.restore" = "Восстановить покупки";
+"paywall.legal" = "Подписка продлевается автоматически. Отмена — в настройках Apple ID.";
+"paywall.terms" = "Условия использования • Политика конфиденциальности";
+"paywall.bestValue" = "Лучшая цена";
+"paywall.feature.aiCoach" = "AI-Коуч";
+"paywall.feature.aiCoach.desc" = "Персональный коуч с полным функционалом";
+"paywall.feature.unlimited" = "Безлимит привычек";
+"paywall.feature.unlimited.desc" = "Создавай сколько угодно привычек";
+"paywall.feature.analytics" = "Продвинутая аналитика";
+"paywall.feature.analytics.desc" = "Глубокие инсайты и корреляции";
+"paywall.feature.themes" = "Кастомные темы";
+"paywall.feature.themes.desc" = "Иконки, цвета и оформление";
+"paywall.feature.export" = "Экспорт данных";
+"paywall.feature.export.desc" = "CSV, PDF — все твои данные";
+"paywall.feature.noAds" = "Без рекламы";
+"paywall.feature.noAds.desc" = "Чистый интерфейс без отвлечений";
+"paywall.productNotFound" = "Продукт не найден. Попробуйте позже.";
+
+// MARK: - Subscription Plans
+"plan.monthly" = "1 месяц";
+"plan.quarterly" = "3 месяца";
+"plan.semiannual" = "6 месяцев";
+"plan.annual" = "12 месяцев";
+"plan.biennial" = "24 месяца";
+"plan.lifetime" = "Навсегда";
+
+// MARK: - Badges
+"badge.streak7" = "7 дней подряд";
+"badge.streak21" = "21 день — привычка!";
+"badge.streak66" = "66 дней — автоматизм!";
+"badge.streak100" = "Сотня!";
+"badge.earlyBird" = "Ранняя пташка";
+"badge.nightOwl" = "Ночная сова";
+"badge.ironWill" = "Железная воля";
+"badge.firstHabit" = "Первый шаг";
+"badge.fiveHabits" = "Пять привычек";
+"badge.perfectWeek" = "Идеальная неделя";
+"badge.perfectMonth" = "Идеальный месяц";
+"badge.journalKeeper" = "Хранитель дневника";
+"badge.aiExplorer" = "Исследователь AI";
+"badge.socialButterfly" = "Командный игрок";
+"badge.levelUp" = "Новый уровень";
+
+"badge.streak7.desc" = "Выполняй привычку 7 дней подряд";
+"badge.streak21.desc" = "21 день — привычка начинает формироваться!";
+"badge.streak66.desc" = "66 дней — привычка стала автоматической!";
+"badge.streak100.desc" = "100 дней подряд — ты легенда!";
+"badge.earlyBird.desc" = "Выполни привычку до 7 утра";
+"badge.nightOwl.desc" = "Выполни привычку после 23:00";
+"badge.ironWill.desc" = "Не пропусти ни одного дня за месяц";
+"badge.firstHabit.desc" = "Создай свою первую привычку";
+"badge.fiveHabits.desc" = "Отслеживай 5 привычек одновременно";
+"badge.perfectWeek.desc" = "Выполни все привычки за неделю";
+"badge.perfectMonth.desc" = "Выполни все привычки за месяц";
+"badge.journalKeeper.desc" = "Веди журнал 7 дней подряд";
+"badge.aiExplorer.desc" = "Используй AI-коуча 10 раз";
+"badge.socialButterfly.desc" = "Пригласи друга в приложение";
+"badge.levelUp.desc" = "Достигни нового уровня";
+
+// MARK: - Levels
+"level.novice" = "Новичок";
+"level.student" = "Ученик";
+"level.practitioner" = "Практик";
+"level.master" = "Мастер привычек";
+"level.guru" = "Гуру";
+"level.legend" = "Легенда";
+"level.prefix" = "Уровень %d";
+"level.xpFormat" = "%d/%d XP";
+
+// MARK: - Goals
+"goals.title" = "Цели";
+"goals.empty.title" = "Нет целей";
+"goals.empty.subtitle" = "Создай цель, чтобы объединить привычки в осмысленный план";
+"goals.empty.action" = "Создать цель";
+"goals.new" = "Новая цель";
+"goals.name" = "НАЗВАНИЕ ЦЕЛИ";
+"goals.name.placeholder" = "Например: Пробежать полумарафон";
+"goals.description" = "ОПИСАНИЕ";
+"goals.description.placeholder" = "Зачем тебе эта цель?";
+"goals.identity" = "КЕМ ТЫ ХОЧЕШЬ СТАТЬ? (НЕОБЯЗАТЕЛЬНО)";
+"goals.identity.placeholder" = "Я — человек, который...";
+"goals.deadline" = "Дедлайн";
+"goals.deadline.date" = "Дата";
+"goals.availableTime" = "ДОСТУПНОЕ ВРЕМЯ В ДЕНЬ";
+"goals.availableTime.format" = "%d минут";
+"goals.linkHabits" = "ПРИВЯЗАТЬ ПРИВЫЧКИ";
+"goals.habits_count" = "%d привычек";
+"goals.daysLeft" = "Осталось %d дн.";
+"goals.deadlinePassed" = "Дедлайн прошёл";
+"goals.progress" = "Прогресс";
+"goals.habits" = "Привычки";
+"goals.markComplete" = "Отметить цель выполненной";
+"goals.delete" = "Удалить цель";
+"goals.habitsLinked" = "%d привычек привязано";
+"goals.aiSuggest" = "AI подберёт привычки для цели";
+
+// MARK: - Celebration
+"celebration.newLevel" = "⬆️ Новый уровень!";
+"celebration.streakDays" = "🔥 %d дней подряд!";
+"celebration.perfectDay" = "✨ Идеальный день!";
+
+// MARK: - Premium
+"premium.title" = "Sergi Premium ✨";
+"premium.subtitle" = "AI-коуч, безлимит привычек, аналитика";
+
+// MARK: - Onboarding
+"onboarding.welcome" = "Добро пожаловать в Sergi";
+"onboarding.next" = "Далее";
+"onboarding.start" = "Начать";
+
+// MARK: - Notifications
+"notification.habitTime" = "Время для привычки";
+"notification.howWasDay" = "Как прошёл день?";
+"notification.journal.body" = "Удели минутку рефлексии — это помогает формировать привычки 📝";
+"notification.weeklyReview" = "Еженедельный обзор 📊";
+"notification.weeklyReview.body" = "Посмотри свой прогресс за неделю и скорректируй план!";
+"notification.action.complete" = "✅ Выполнено";
+"notification.action.skip" = "⏭️ Пропустить";
+"notification.action.openJournal" = "📝 Открыть журнал";
+
+// MARK: - Store Errors
+"store.error.verification" = "Не удалось проверить покупку";
+"store.error.purchase" = "Покупка не выполнена";
+
+// MARK: - Streaks
+"streak.daysInRow" = "дней подряд";
+"streak.best" = "Лучший: %d";
